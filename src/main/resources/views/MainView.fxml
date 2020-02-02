@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.*?>
+<StackPane fx:id="pane_main"
+           prefHeight="400.0"
+           prefWidth="600.0"
+           xmlns="http://javafx.com/javafx"
+           xmlns:fx="http://javafx.com/fxml">
+    <children>
+        <BorderPane>
+            <top>
+                <HBox VBox.vgrow="ALWAYS">
+                    <children>
+                        <JFXTextField disable="true" minWidth="100" HBox.hgrow="ALWAYS"></JFXTextField>
+                        <JFXButton fx:id="btn_load" text="加载"></JFXButton>
+                        <JFXButton fx:id="btn_save" text="保存" disable="true"></JFXButton>
+                    </children>
+                </HBox>
+            </top>
+            <center>
+                <Label text="Label" BorderPane.alignment="CENTER"/>
+            </center>
+        </BorderPane>
+    </children>
+</StackPane>
+
